@@ -19,7 +19,7 @@ body{
     background-color:rgb(214, 114, 231) ;
     padding: 3rem;
     border: 2px dashed rgb(81, 2, 92);
-    border-radius: 10%;
+    border-radius: 50%;
     font-size: 20px;
     margin:auto 0px;
     position: absolute;
@@ -29,4 +29,19 @@ body{
    background-color: lawngreen;
    transition: all ease 2s;
 
+}
+.border{
+    position: absolute;
+    top:185px;
+    border: 10px solid rgb(81, 2, 92);
+    width: 400px;
+    height:150px;
+    border-radius: 50%;
+    animation: scale 3s infinite linear;
+    
+}
+@keyframes scale{
+0%{transform: scale(1)}
+25%{transform: scale(1.2)}
+100%{transform: scale(1)}
 }
