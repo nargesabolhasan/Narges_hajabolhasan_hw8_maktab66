@@ -7,5 +7,7 @@ class Circle{
     getArea(){
         return this.radius**2*this.PI
        }
-   
+       getPerimeter(){
+        return this.radius*this.PI*2
+    }
 }
