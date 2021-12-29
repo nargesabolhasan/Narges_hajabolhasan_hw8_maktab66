@@ -229,6 +229,20 @@ flex-basis: 80%;
             animation: round5 6s infinite forwards;
             z-index: 999;
         }
-                
+        @keyframes round{
+            0%{top: 0px;transform: skew(0deg);}
+            20%{top: -100px;transform: skew(20deg);}
+            30%{top: -200px;left:50px;transform:skew(0deg);transform:rotate(0deg);transform:rotateY(0deg)}
+            70%{top: -400px;left: 100px;transform:skew(0deg);transform:rotate(360deg);transform:rotateY(0deg);opacity:100%}
+            100%{top: -450px;left:50px;transform:skew(0deg);transform:rotateY(360deg);opacity: 0%}
+            }
+         @keyframes round1{
+            0%{top: 2px;transform: skew(0deg);}
+            20%{top:-200px;transform: skew(20deg);}
+            30%{top: -300px;left: 2px;transform:skew(0deg);transform:rotate(0deg);}
+            70%{top: -350px;left:200px;transform:skew(0deg);transform:rotate(360deg);opacity: 100%}
+            100%{top: -400px;left:250px;transform:skew(0deg);opacity: 0%}
+                }
+                        
      
     
