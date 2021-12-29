@@ -123,7 +123,7 @@ flex-basis: 80%;
         width:250px;
         height:250px;
         position:absolute;
-        top:300px;
+        top:100%;
     }
     .box1:hover {
         background-color: rgb(89, 0, 255) ;
@@ -272,15 +272,24 @@ flex-basis: 80%;
         frome{opacity: 0%;}
         to{opacity: 100%;}
         }
-        
-@media only screen and (max-width: 602px) {
-.mobile{
+       
+@media only screen and (max-width: 1870px),
+screen and(max-height:878px) {
+.box1{
+top:95%;
+}
+}
+
+
+@media only screen and (max-width:602px),
+screen and(max-height:878px) {
+.mobile{ 
 position: relative;
 background-color: black;
 border-radius: 8%;
 box-shadow: 10px 10px 5px grey;
-width:400px;
-height:800px;
+width:95%;
+height:90%;
 flex-basis: 80%;
             } 
 #lock{
@@ -298,10 +307,17 @@ flex-basis: 80%;
 #button{
 top: 9%;
 left:20%;
-}                     
+}  
+.caption{
+    background-color: rgb(184, 177, 248);
+    }
+    #ferstT{
+     font-size: 20px;
+     padding:20px 40px;
+    }                   
+.box1{
+top:95%;
+    }
+ }   
 
- }                
-                        
-                        
-     
     
