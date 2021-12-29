@@ -4,3 +4,13 @@
    console.log(splitBill(10,2));
     console.log(splitBill(10,4));
  
+    countdown=(startingNumber ,step)=>{
+      let countFromNum = startingNumber + step
+      return function decrease(){
+      countFromNum -=step;
+      return countFromNum;
+      }
+      }
+      const countingDown =countdown(20,2)
+      console.log(countingDown());
+  
