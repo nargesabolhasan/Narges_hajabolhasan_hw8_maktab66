@@ -7,6 +7,7 @@
 }
 body{
     box-sizing:border-box;
+    background-color: rgb(172, 252, 255);
   
 }
 
@@ -16,7 +17,6 @@ display: flex;
 flex-direction: column;
 justify-content: space-around;
 align-items: center;
-background-color: rgb(172, 252, 255);
 width: 100vw;
 height: 100vh;
 }
@@ -28,7 +28,7 @@ height: 100vh;
      font-size: 30px;
      padding:20px 40px;
     }
-    .mobile{
+.mobile{
 position: relative;
 background-color: black;
 border-radius: 8%;
@@ -272,9 +272,35 @@ flex-basis: 80%;
         frome{opacity: 0%;}
         to{opacity: 100%;}
         }
-                    
+        
+@media only screen and (max-width: 602px) {
+.mobile{
+position: relative;
+background-color: black;
+border-radius: 8%;
+box-shadow: 10px 10px 5px grey;
+width:400px;
+height:800px;
+flex-basis: 80%;
+            } 
+#lock{
+     position: absolute;
+     top: 15%;
+     left:-25px;
+}
+#unlock{
+  display: none;
+     position: absolute;
+     top: 15%;
+     left:-25px;
+     animation:disappear 2s forwards ;
+} 
+#button{
+top: 9%;
+left:20%;
+}                     
 
-                            
+ }                
                         
                         
      
