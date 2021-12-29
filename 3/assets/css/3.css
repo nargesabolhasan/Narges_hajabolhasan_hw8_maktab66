@@ -279,18 +279,11 @@ screen and(max-height:878px) {
 top:95%;
 }
 }
-
-
 @media only screen and (max-width:602px),
 screen and(max-height:878px) {
 .mobile{ 
-position: relative;
-background-color: black;
-border-radius: 8%;
-box-shadow: 10px 10px 5px grey;
 width:95%;
 height:90%;
-flex-basis: 80%;
             } 
 #lock{
      position: absolute;
@@ -319,5 +312,50 @@ left:20%;
 top:95%;
     }
  }   
-
+ @media only screen and (max-width:400px),
+ screen and(max-height:760px) {
+    #lock{
+        width:300px;
+        top: 15%;
+        left:1%;
+    }
+    #unlock{
+        width:300px;
+        top: 15%;
+        left:1%;
+    }
+    .caption{
+        background-color: rgb(184, 177, 248);
+        }
+        #ferstT{
+         font-size: 20px;
+         padding:5px;
+        }   
+    #gif{
+        width:200px;
+    }    
+    .box1{
+        width:250px;
+        height:250px;
+        top:100%;
+        }
+        .border{
+        top:35px;
+        width:200px;
+        height:200px;
+        padding: 10px;
+           }  
+        .border2{
+            top:35px;
+            width:150px;
+            height:150px;
+            padding: 10px;
+           }   
+           .border3{
+            position:absolute;
+            top:35px;
+            width:200px;
+            height:200px;
+           }  
+    }
     
