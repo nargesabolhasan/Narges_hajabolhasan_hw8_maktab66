@@ -34,7 +34,7 @@ background-color: black;
 border-radius: 8%;
 box-shadow: 10px 10px 5px grey;
 width:500px;
-height:800px;
+height:880px;
 flex-basis: 80%;
     }
     #screen{
@@ -280,7 +280,7 @@ top:95%;
 }
 }
 @media only screen and (max-width:602px),
-screen and(max-height:878px) {
+screen and(max-height:878px) {    
 .mobile{ 
 width:95%;
 height:90%;
@@ -312,7 +312,7 @@ left:20%;
 top:95%;
     }
  }   
- @media only screen and (max-width:400px),
+ @media only screen and (max-width:450px),
  screen and(max-height:760px) {
     #lock{
         width:300px;
@@ -337,25 +337,32 @@ top:95%;
     .box1{
         width:250px;
         height:250px;
-        top:100%;
+        top:90%;
         }
         .border{
-        top:35px;
+        top:30px;
         width:200px;
         height:200px;
         padding: 10px;
            }  
         .border2{
-            top:35px;
+            top:50px;
             width:150px;
             height:150px;
             padding: 10px;
            }   
            .border3{
             position:absolute;
-            top:35px;
+            top:20px;
             width:200px;
             height:200px;
            }  
     }
-    
+    @media only screen and(max-height:600px){
+        .box1{
+            width:150px;
+            height:150px;
+            top:70%;
+            }
+
+    }
