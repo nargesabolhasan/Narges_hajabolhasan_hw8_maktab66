@@ -75,5 +75,22 @@ flex-basis: 80%;
        color: rgb(0, 0, 0);
        font-size: 20px;
     }
+    #lock{
+        position: absolute;
+        top: 15%;
+        left: 5%;
+    }
+    #unlock{
+     display: none;
+        position: absolute;
+        top: 15%;
+        left: 5%;
+        animation:disappear 2s forwards ;
+    }
+    
+    @keyframes disappear{
+        frome{opacity: 100%;}
+        to{opacity: 0%;}
+    }
     
     
