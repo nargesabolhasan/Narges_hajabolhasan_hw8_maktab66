@@ -46,5 +46,34 @@ flex-basis: 80%;
         top: 10%;
         left: 5%;
     }
+    #soundB{
+        background-color: rgb(47, 47, 47);
+        border-radius: 40%;
+         position: absolute;
+         width: 20%;
+         height:1%;
+         top: 5%;
+         left: 40%;
+    }
+    #circle{
+        background-color: rgb(47, 47, 47);
+        border-radius: 40%;
+         position: absolute;
+         width: 2%;
+         height:1%;
+         top: 5%;
+         left: 35%;
+    }
+    #button{
+        position: absolute;
+        background-color: rgba(255, 255, 255, 0);
+        border: rgba(216, 191, 216, 0);
+        padding: 20px;
+        top: 85%;
+        left: 25%;
+        border-radius: 20%;
+       color: rgb(0, 0, 0);
+       font-size: 20px;
+    }
     
     
