@@ -114,5 +114,20 @@ flex-basis: 80%;
         top: 50px;
         text-align: center;
     }
+    .box1{
+        background-color: rgb(217, 0, 255);
+        border-radius: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width:250px;
+        height:250px;
+        position:absolute;
+        top:300px;
+    }
+    .box1:hover {
+        background-color: rgb(89, 0, 255) ;
+        transition: all ease 2s;
+    }
      
     
