@@ -1,0 +1,22 @@
+*,
+*::after,
+*::before{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: inherit;
+}
+body{
+    box-sizing:border-box;
+  
+}
+
+.main{
+margin:0 auto;
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+align-items: center;
+background-color: rgb(172, 252, 255);
+width: 100vw;
+height: 100vh;
+}
